@@ -1,0 +1,38 @@
+---
+canvas: "https://iconolocode.github.io/opdrachtboekgeschiedenis/img/derivatives/iiif/openingspagina/canvas/openingspagina-1"
+order: 10
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "lettertype met dubbel lijnen, schaduw effect",
+            "purpose": "commenting",
+            "creator": {
+                "id": "iconolocode",
+                "name": "iconolocode"
+            },
+            "created": "2024-11-02T16:22:29.273Z",
+            "modified": "2024-11-02T16:22:43.036Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://iconolocode.github.io/opdrachtboekgeschiedenis/img/derivatives/iiif/openingspagina/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://iconolocode.github.io/opdrachtboekgeschiedenis/img/derivatives/iiif/openingspagina/canvas/openingspagina-1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=869.7832641601562,1432.3663330078125,1253.4743041992188,103.6336669921875"
+        }
+    },
+    "id": "d50e4f81-7fa2-4f40-b14d-5ff3eaa36778.json",
+    "motivation": "commenting"
+}
