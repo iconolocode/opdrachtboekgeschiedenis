@@ -4,21 +4,27 @@ order: 14
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "20",
-            "purpose": "commenting",
+            "created": "2024-11-02T17:39:50.526Z",
             "creator": {
                 "id": "iconolocode",
                 "name": "iconolocode"
             },
-            "created": "2024-11-02T17:39:50.526Z",
-            "modified": "2024-11-02T17:39:51.024Z"
+            "modified": "2024-11-02T18:04:48.656Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "20 regels van stok naar staart: 6,9 cm"
         }
     ],
+    "id": "de85be49-b85f-43c0-b7fd-1ae8cec2e4ef.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2022.1383056640625,1616.7650146484375,118.3619384765625,1444.0145263671875"
+        },
         "source": {
             "partOf": {
                 "id": "https://iconolocode.github.io/opdrachtboekgeschiedenis/img/derivatives/iiif/openingspagina/manifest.json",
@@ -26,13 +32,7 @@ order: 14
             },
             "id": "https://iconolocode.github.io/opdrachtboekgeschiedenis/img/derivatives/iiif/openingspagina/canvas/openingspagina-1",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2022.1383056640625,1616.7650146484375,118.3619384765625,1444.0145263671875"
         }
     },
-    "id": "de85be49-b85f-43c0-b7fd-1ae8cec2e4ef.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
