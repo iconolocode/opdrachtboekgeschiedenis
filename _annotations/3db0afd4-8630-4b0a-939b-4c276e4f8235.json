@@ -1,0 +1,38 @@
+---
+canvas: "https://iconolocode.github.io/opdrachtboekgeschiedenis/img/derivatives/iiif/titelpagina/canvas/titelpagina-1"
+order: 3
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "kleinkapitalen met een bovenkast kapitaal",
+            "purpose": "commenting",
+            "creator": {
+                "id": "iconolocode",
+                "name": "iconolocode"
+            },
+            "created": "2024-11-02T15:53:34.678Z",
+            "modified": "2024-11-02T15:53:54.829Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://iconolocode.github.io/opdrachtboekgeschiedenis/img/derivatives/iiif/titelpagina/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://iconolocode.github.io/opdrachtboekgeschiedenis/img/derivatives/iiif/titelpagina/canvas/titelpagina-1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=802.2788696289062,1343.47998046875,356.20318603515625,85.1790771484375"
+        }
+    },
+    "id": "3db0afd4-8630-4b0a-939b-4c276e4f8235.json",
+    "motivation": "commenting"
+}
