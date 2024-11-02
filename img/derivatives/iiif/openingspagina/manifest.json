@@ -1,12 +1,9 @@
 ---
-added: 2024-11-02 15&#58;47&#58;42.810440
-thumbnail: https://iconolocode.github.io/opdrachtboekgeschiedenis/img/derivatives/iiif/openingspagina/IMG20241102opening/full/192,/0/default.jpg
-title: openingspagina
-user: iconolocode
+layout: none
 ---
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iconolocode.github.io/opdrachtboekgeschiedenis/img/derivatives/iiif/openingspagina/manifest.json",
+  "id": "{{ '/' | absolute_url }}img/derivatives/iiif/openingspagina/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -24,7 +21,7 @@ user: iconolocode
   "viewingDirection": "left-to-right",
   "items": [
     {
-      "id": "https://iconolocode.github.io/opdrachtboekgeschiedenis/img/derivatives/iiif/openingspagina/canvas/openingspagina-1",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/openingspagina/canvas/openingspagina-1",
       "type": "Canvas",
       "label": {
         "en": [
@@ -33,7 +30,7 @@ user: iconolocode
       },
       "thumbnail": [
         {
-          "id": "https://iconolocode.github.io/opdrachtboekgeschiedenis/img/derivatives/iiif/openingspagina/IMG20241102opening/full/192,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/openingspagina/IMG20241102opening/full/192,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -41,30 +38,36 @@ user: iconolocode
       "width": 3072,
       "items": [
         {
-          "id": "https://iconolocode.github.io/opdrachtboekgeschiedenis/img/derivatives/iiif/openingspagina/page/p1/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/openingspagina/page/p1/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://iconolocode.github.io/opdrachtboekgeschiedenis/img/derivatives/iiif/openingspagina/annotation/p0001-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/openingspagina/annotation/p0001-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iconolocode.github.io/opdrachtboekgeschiedenis/img/derivatives/iiif/openingspagina/IMG20241102opening/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/openingspagina/IMG20241102opening/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 4096,
                 "width": 3072,
                 "service": [
                   {
-                    "id": "https://iconolocode.github.io/opdrachtboekgeschiedenis/img/derivatives/iiif/openingspagina/IMG20241102opening",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/openingspagina/IMG20241102opening",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://iconolocode.github.io/opdrachtboekgeschiedenis/img/derivatives/iiif/openingspagina/canvas/openingspagina-1"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/openingspagina/canvas/openingspagina-1"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/openingspagina-1-list.json",
+          "type": "AnnotationPage"
         }
       ]
     }
