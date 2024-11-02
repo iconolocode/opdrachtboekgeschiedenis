@@ -4,21 +4,38 @@ order: 9
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "romeinse nummers",
-            "purpose": "describing",
+            "created": "2024-11-02T16:02:24.995Z",
             "creator": {
                 "id": "iconolocode",
                 "name": "iconolocode"
             },
-            "created": "2024-11-02T16:02:24.995Z",
-            "modified": "2024-11-02T16:02:37.604Z"
+            "modified": "2024-11-02T16:02:37.604Z",
+            "purpose": "describing",
+            "type": "TextualBody",
+            "value": "romeinse nummers"
+        },
+        {
+            "type": "TextualBody",
+            "value": "element",
+            "purpose": "tagging",
+            "creator": {
+                "id": "iconolocode",
+                "name": "iconolocode"
+            },
+            "created": "2024-11-02T16:12:47.878Z",
+            "modified": "2024-11-02T16:12:50.727Z"
         }
     ],
+    "id": "d44a993b-10cf-4fa1-b3f4-a2addb28f461.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1171.7821044921875,2994.54150390625,699.5169677734375,68.755859375"
+        },
         "source": {
             "partOf": {
                 "id": "https://iconolocode.github.io/opdrachtboekgeschiedenis/img/derivatives/iiif/titelpagina/manifest.json",
@@ -26,13 +43,7 @@ order: 9
             },
             "id": "https://iconolocode.github.io/opdrachtboekgeschiedenis/img/derivatives/iiif/titelpagina/canvas/titelpagina-1",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1171.7821044921875,2994.54150390625,699.5169677734375,68.755859375"
         }
     },
-    "id": "d44a993b-10cf-4fa1-b3f4-a2addb28f461.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
