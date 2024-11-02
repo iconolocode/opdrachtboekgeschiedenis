@@ -15,6 +15,17 @@ order: 1
             "purpose": "describing",
             "type": "TextualBody",
             "value": "fantasie bovenkast lettertype"
+        },
+        {
+            "type": "TextualBody",
+            "value": "lettertype",
+            "purpose": "tagging",
+            "creator": {
+                "id": "iconolocode",
+                "name": "iconolocode"
+            },
+            "created": "2024-11-02T16:11:18.927Z",
+            "modified": "2024-11-02T16:11:21.258Z"
         }
     ],
     "id": "ba19ea2a-1c82-407d-836a-ba3dccd753eb.json",
