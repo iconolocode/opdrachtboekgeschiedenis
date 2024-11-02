@@ -1,0 +1,38 @@
+---
+canvas: "https://iconolocode.github.io/opdrachtboekgeschiedenis/img/derivatives/iiif/openingspagina/canvas/openingspagina-1"
+order: 5
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "paginanummer\n\nlijkt met x te beginnen, maar daarna 3 4 5 etc recto verso",
+            "purpose": "commenting",
+            "creator": {
+                "id": "iconolocode",
+                "name": "iconolocode"
+            },
+            "created": "2024-11-02T16:17:37.137Z",
+            "modified": "2024-11-02T16:18:23.246Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://iconolocode.github.io/opdrachtboekgeschiedenis/img/derivatives/iiif/openingspagina/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://iconolocode.github.io/opdrachtboekgeschiedenis/img/derivatives/iiif/openingspagina/canvas/openingspagina-1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2152.86767578125,366.4192810058594,59.218994140625,64.1541748046875"
+        }
+    },
+    "id": "27fb273f-61ae-4708-b79d-7f25b6f4e2db.json",
+    "motivation": "commenting"
+}
