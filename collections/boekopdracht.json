@@ -9,6 +9,18 @@
             "title": "titelpagina",
             "description": "",
             "thumbnail": ""
+        },
+        {
+            "board": "<iiif-storyboard annotationurl='https://iconolocode.github.io/opdrachtboekgeschiedenis/annotations/titelpagina-1-list.json'></iiif-storyboard>",
+            "title": "",
+            "description": "",
+            "thumbnail": ""
+        },
+        {
+            "board": "<iiif-storyboard annotationurl='https://iconolocode.github.io/opdrachtboekgeschiedenis/annotations/openingspagina-1-list.json'></iiif-storyboard>",
+            "title": "",
+            "description": "",
+            "thumbnail": ""
         }
     ]
 }
