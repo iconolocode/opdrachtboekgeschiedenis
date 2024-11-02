@@ -4,32 +4,27 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "fantasie bovenkast lettertype",
-            "purpose": "describing",
-            "creator": {
-                "id": "iconolocode",
-                "name": "iconolocode"
-            },
             "created": "2024-11-02T15:51:27.529Z",
-            "modified": "2024-11-02T15:51:55.106Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "lettertype",
-            "purpose": "tagging",
             "creator": {
                 "id": "iconolocode",
                 "name": "iconolocode"
             },
-            "created": "2024-11-02T15:51:39.470Z",
-            "modified": "2024-11-02T15:51:43.455Z"
+            "modified": "2024-11-02T15:51:55.106Z",
+            "purpose": "describing",
+            "type": "TextualBody",
+            "value": "fantasie bovenkast lettertype"
         }
     ],
+    "id": "ba19ea2a-1c82-407d-836a-ba3dccd753eb.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=790.2130737304688,443.5892028808594,1403.9776000976562,184.68435668945312"
+        },
         "source": {
             "partOf": {
                 "id": "https://iconolocode.github.io/opdrachtboekgeschiedenis/img/derivatives/iiif/titelpagina/manifest.json",
@@ -37,13 +32,7 @@ order: 1
             },
             "id": "https://iconolocode.github.io/opdrachtboekgeschiedenis/img/derivatives/iiif/titelpagina/canvas/titelpagina-1",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=790.2130737304688,443.5892028808594,1403.9776000976562,184.68435668945312"
         }
     },
-    "id": "ba19ea2a-1c82-407d-836a-ba3dccd753eb.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
