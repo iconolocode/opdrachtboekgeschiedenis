@@ -4,21 +4,27 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "zetspiegel",
-            "purpose": "describing",
+            "created": "2024-11-02T16:13:48.808Z",
             "creator": {
                 "id": "iconolocode",
                 "name": "iconolocode"
             },
-            "created": "2024-11-02T16:13:48.808Z",
-            "modified": "2024-11-02T16:13:56.282Z"
+            "modified": "2024-11-02T18:05:23.767Z",
+            "purpose": "describing",
+            "type": "TextualBody",
+            "value": "zetspiegel\napprox. 6,9 x 13,2 cm"
         }
     ],
+    "id": "92ea8fa7-7b22-4d99-8c71-84ec21d1b2c4.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=721.735107421875,361.48431396484375,1524.89599609375,2822.7857055664062"
+        },
         "source": {
             "partOf": {
                 "id": "https://iconolocode.github.io/opdrachtboekgeschiedenis/img/derivatives/iiif/openingspagina/manifest.json",
@@ -26,13 +32,7 @@ order: 1
             },
             "id": "https://iconolocode.github.io/opdrachtboekgeschiedenis/img/derivatives/iiif/openingspagina/canvas/openingspagina-1",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=721.735107421875,361.48431396484375,1524.89599609375,2822.7857055664062"
         }
     },
-    "id": "92ea8fa7-7b22-4d99-8c71-84ec21d1b2c4.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
