@@ -1,0 +1,49 @@
+---
+canvas: "https://iconolocode.github.io/opdrachtboekgeschiedenis/img/derivatives/iiif/titelpagina/canvas/titelpagina-1"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "cursieve kapitalen",
+            "purpose": "describing",
+            "creator": {
+                "id": "iconolocode",
+                "name": "iconolocode"
+            },
+            "created": "2024-11-02T15:53:01.507Z",
+            "modified": "2024-11-02T15:53:17.334Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "lettertype",
+            "purpose": "tagging",
+            "creator": {
+                "id": "iconolocode",
+                "name": "iconolocode"
+            },
+            "created": "2024-11-02T15:53:19.669Z",
+            "modified": "2024-11-02T15:53:21.941Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://iconolocode.github.io/opdrachtboekgeschiedenis/img/derivatives/iiif/titelpagina/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://iconolocode.github.io/opdrachtboekgeschiedenis/img/derivatives/iiif/titelpagina/canvas/titelpagina-1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=893.2655639648438,1186.6732177734375,1169.2756958007812,87.114990234375"
+        }
+    },
+    "id": "2d5871bb-a8e7-4ad2-b89d-e0bfe2d1c120.json",
+    "motivation": "commenting"
+}
