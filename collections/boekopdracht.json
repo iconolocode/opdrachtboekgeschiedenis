@@ -1,0 +1,14 @@
+---
+---
+{
+    "label": "boekopdracht",
+    "type": "storyboardlist",
+    "items": [
+        {
+            "board": "<iiif-storyboard annotationurl='https://iconolocode.github.io/opdrachtboekgeschiedenis/annotations/titelpagina-1-list.json'></iiif-storyboard>",
+            "title": "titelpagina",
+            "description": "",
+            "thumbnail": ""
+        }
+    ]
+}
