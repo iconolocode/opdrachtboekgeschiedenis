@@ -1,0 +1,26 @@
+---
+canvas: "https://iconolocode.github.io/opdrachtboekgeschiedenis/img/derivatives/iiif/openingspagina/canvas/openingspagina-1"
+order: 15
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://iconolocode.github.io/opdrachtboekgeschiedenis/img/derivatives/iiif/openingspagina/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://iconolocode.github.io/opdrachtboekgeschiedenis/img/derivatives/iiif/openingspagina/canvas/openingspagina-1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2431.14404296875,2514.20751953125,23.463623046875,93.854736328125"
+        }
+    },
+    "id": "38f63ddb-7f9a-4afc-9d34-e30f8581c03e.json",
+    "motivation": "commenting"
+}
