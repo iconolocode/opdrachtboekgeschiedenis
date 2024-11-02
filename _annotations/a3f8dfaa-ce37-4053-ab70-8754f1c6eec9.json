@@ -4,21 +4,38 @@ order: 7
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "onderkast en kleinkapitaal lettertypes in zelfde regel",
-            "purpose": "commenting",
+            "created": "2024-11-02T16:00:56.578Z",
             "creator": {
                 "id": "iconolocode",
                 "name": "iconolocode"
             },
-            "created": "2024-11-02T16:00:56.578Z",
-            "modified": "2024-11-02T16:01:08.797Z"
+            "modified": "2024-11-02T16:01:08.797Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "onderkast en kleinkapitaal lettertypes in zelfde regel"
+        },
+        {
+            "type": "TextualBody",
+            "value": "typografie",
+            "purpose": "tagging",
+            "creator": {
+                "id": "iconolocode",
+                "name": "iconolocode"
+            },
+            "created": "2024-11-02T16:11:49.015Z",
+            "modified": "2024-11-02T16:11:51.349Z"
         }
     ],
+    "id": "a3f8dfaa-ce37-4053-ab70-8754f1c6eec9.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=806.5543212890625,2763.56640625,1403.3734130859375,98.69873046875"
+        },
         "source": {
             "partOf": {
                 "id": "https://iconolocode.github.io/opdrachtboekgeschiedenis/img/derivatives/iiif/titelpagina/manifest.json",
@@ -26,13 +43,7 @@ order: 7
             },
             "id": "https://iconolocode.github.io/opdrachtboekgeschiedenis/img/derivatives/iiif/titelpagina/canvas/titelpagina-1",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=806.5543212890625,2763.56640625,1403.3734130859375,98.69873046875"
         }
     },
-    "id": "a3f8dfaa-ce37-4053-ab70-8754f1c6eec9.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
